@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from events import views as event_views
+from PelecKoto.events import views as event_views
 
 urlpatterns = [
     path('', event_views.event_registration, name='event_registration'),

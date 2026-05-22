@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-*yi@+zt*bb1rd+y-^w0c&wo&-_n)kp@jlpib#odg^ippgl82=_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.pythonanywhere.com']
+ALLOWED_HOSTS = ['.pythonanywhere.com', 'cjnee.pythonanywhere.com']
+
+CSRF_TRUSTED_ORIGINS = ['https://cjnee.pythonanywhere.com']
+
+
+
 
 
 
